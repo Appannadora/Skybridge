@@ -1,0 +1,1239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sky Bridge Travel & Tourism - Discover unforgettable journeys, curated tours, flights, hotels and visa assistance."
+    />
+    <title>Sky Bridge Travel &amp; Tourism | Discover Your Next Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Hanken+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>✦ Your journey starts here</span>
+        <span>info@skybridgeagtravels.com</span>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="container nav-wrap">
+        <a
+          class="logo"
+          href="#home"
+          aria-label="Sky Bridge Travel &amp; Tourism – Home"
+        >
+          <img
+            class="logo-img"
+            src="./assets/skybridge.png"
+            alt="Sky Bridge logo"
+            width="52"
+            height="52"
+          />
+          <span class="logo-text"
+            ><strong>Sky Bridge</strong
+            ><small>Travel &amp; Tourism</small></span
+          >
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuBtn"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          ☰
+        </button>
+
+        <nav class="nav" id="nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#destinations">Destinations</a>
+
+          <a href="#contact">Contact</a>
+          <form class="search" role="search" id="booking">
+            <input
+              id="q"
+              type="search"
+              placeholder="Search Dubai, visa, flights…"
+              aria-label="Search destinations and services"
+            />
+            <button
+              type="button"
+              onclick="
+                document
+                  .getElementById('contact')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
+            >
+              Book Now
+            </button>
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow light">DISCOVER • EXPLORE • EXPERIENCE</p>
+            <h1>Your journey<br /><em>starts here.</em></h1>
+            <p class="hero-text">
+              Discover breathtaking destinations, unforgettable experiences and
+              perfectly planned journeys made just for you.
+            </p>
+            <div class="hero-actions">
+              <a href="#destinations" class="btn btn-primary"
+                >Explore Destinations <span>↗</span></a
+              >
+              <a href="#packages" class="text-link light-link"
+                >View Travel Packages <span>→</span></a
+              >
+            </div>
+          </div>
+          <div class="hero-card">
+            <span class="card-label">🌍 FEATURED EXPERIENCE</span>
+            <h3>Explore More. Travel Further.</h3>
+            <p>
+              Discover amazing destinations, exciting adventures and
+              unforgettable experiences.
+            </p>
+            <a href="#destinations">Start Exploring <span>→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="ab-wrap">
+            <div class="ab-top">
+              <div class="ab-copy">
+                <p class="ab-eyebrow">ABOUT US</p>
+                <h2>Welcome to <em>Sky Bridge</em> Travel &amp; Tourism</h2>
+                <p class="ab-text">
+                  <strong>Sky Bridge Travel &amp; Tourism</strong> is a Bern,
+                  Switzerland based multi speciality travel agency founded in
+                  1996 by <strong>Mr. Rajah K, Managing Director</strong>. We
+                  enable you to discover a new destination and offer unique
+                  ideas to your travel.
+                </p>
+                <a href="#services" class="ab-btn">Read More <span>↗</span></a>
+              </div>
+
+              <div class="ab-pass" aria-label="Sky Bridge at a glance">
+                <div class="ab-pass-head">
+                  <span class="ab-brand">✈ Sky Bridge</span>
+                  <span class="ab-class">First Class</span>
+                </div>
+                <div class="ab-route">
+                  <div class="ab-city">
+                    <small>FROM</small><strong>Anywhere</strong>
+                  </div>
+                  <div class="ab-path" aria-hidden="true">
+                    <i></i><b>✈</b><i></i>
+                  </div>
+                  <div class="ab-city ab-city-end">
+                    <small>TO</small><strong>WORLD</strong
+                    ><span>Explore more</span>
+                  </div>
+                </div>
+                <div class="ab-pass-info">
+                  <div><small>Founded</small><strong>1996</strong></div>
+                  <div><small>Core services</small><strong>5</strong></div>
+                  <div class="ab-dir">
+                    <small>Managing Director</small><strong>Mr. Rajah K</strong>
+                  </div>
+                </div>
+                <div class="ab-barcode" aria-hidden="true"></div>
+              </div>
+            </div>
+
+            <ul class="ab-services" aria-label="Our services">
+              <li>
+                <span class="ab-ico">✈️</span>
+                <h3>First Class Flights</h3>
+              </li>
+              <li>
+                <span class="ab-ico">🏨</span>
+                <h3>Handpicked Hotels</h3>
+              </li>
+              <li>
+                <span class="ab-ico">🧭</span>
+                <h3>Expert Travel Guides</h3>
+              </li>
+              <li>
+                <span class="ab-ico">🌴</span>
+                <h3>Handpicked Destinations</h3>
+              </li>
+              <li>
+                <span class="ab-ico">🤝</span>
+                <h3>Travel Community</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="sv-head">
+            <p class="sv-eyebrow">SERVICES</p>
+            <h2>Our <em>Services</em></h2>
+            <p class="sv-sub">Hover over a panel to explore what we do.</p>
+          </div>
+
+          <div class="sv-grid">
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/private%20tours.png"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">01</span
+              ><span class="sv-vert" aria-hidden="true">Private Tours</span>
+              <div class="sv-body">
+                <span class="sv-ico">👤</span>
+                <h3>Private Tours</h3>
+                <p>Personalised itineraries chosen just for you.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/bussiness%20tours.png"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">02</span
+              ><span class="sv-vert" aria-hidden="true">Business Tours</span>
+              <div class="sv-body">
+                <span class="sv-ico">🏢</span>
+                <h3>Business Tours</h3>
+                <p>Flights, hotels and transfers for productive trips.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/film.png"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">03</span
+              ><span class="sv-vert" aria-hidden="true">Film Tours</span>
+              <div class="sv-body">
+                <span class="sv-ico">🎬</span>
+                <h3>Film Tours</h3>
+                <p>Visit the places made famous on screen.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/mediacal%20tour.png"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">04</span
+              ><span class="sv-vert" aria-hidden="true">Medical Tours</span>
+              <div class="sv-body">
+                <span class="sv-ico">🏥</span>
+                <h3>Medical Tours</h3>
+                <p>Care-focused travel with full support.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/visa%20global.png"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">05</span
+              ><span class="sv-vert" aria-hidden="true">Visa Global</span>
+              <div class="sv-body">
+                <span class="sv-ico">🌐</span>
+                <h3>Visa Global</h3>
+                <p>Guidance and document support worldwide.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/world%20package.jpg"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">06</span
+              ><span class="sv-vert" aria-hidden="true"
+                >World Wide Packages</span
+              >
+              <div class="sv-body">
+                <span class="sv-ico">📍</span>
+                <h3>World Wide Packages</h3>
+                <p>Ready-made trips across the globe.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/transport.jpg"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">07</span
+              ><span class="sv-vert" aria-hidden="true"
+                >Transport / Transfer</span
+              >
+              <div class="sv-body">
+                <span class="sv-ico">✈️</span>
+                <h3>Transport / Transfer</h3>
+                <p>Comfortable pick-ups, drop-offs and local rides.</p>
+              </div>
+            </a>
+            <a class="sv-card" href="#booking">
+              <img
+                src="./assets/insurance.png"
+                alt=""
+                loading="lazy"
+                onerror="this.remove()"
+              />
+              <span class="sv-no">08</span
+              ><span class="sv-vert" aria-hidden="true">Insurance</span>
+              <div class="sv-body">
+                <span class="sv-ico">🧳</span>
+                <h3>Insurance</h3>
+                <p>Travel cover for a worry-free trip.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DESTINATIONS -->
+      <section class="destination-section" id="destinations">
+        <div class="container">
+          <div class="ds-head">
+            <div>
+              <p class="ds-eyebrow">WHERE WILL YOU GO?</p>
+              <h2>Popular <em>destinations.</em></h2>
+            </div>
+            <a
+              href="#packages"
+              class="ds-all"
+              aria-controls="packages"
+              aria-expanded="false"
+              >View all destinations <span>→</span></a
+            >
+          </div>
+
+          <div class="ds-strip" aria-hidden="true">
+            <span>DEPARTURES</span><span>05 DESTINATIONS</span
+            ><span>FROM BERN, CH</span>
+          </div>
+
+          <div class="ds-grid">
+            <a class="ds-card ds-large" href="#packages">
+              <img
+                src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=85"
+                alt="Paris, France"
+                loading="lazy"
+              />
+              <div class="ds-top"><span>01</span><span>EUROPE</span></div>
+              <span class="ds-code" aria-hidden="true">CDG</span>
+              <div class="ds-info">
+                <h3>France</h3>
+                <p>Paris · Provence · Nice</p>
+              </div>
+              <span class="ds-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="ds-card" href="#packages">
+              <img
+                src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=800&q=85"
+                alt="Switzerland"
+                loading="lazy"
+              />
+              <div class="ds-top"><span>02</span><span>EUROPE</span></div>
+              <span class="ds-code" aria-hidden="true">ZRH</span>
+              <div class="ds-info">
+                <h3>Switzerland</h3>
+                <p>Alps · Zurich · Lucerne</p>
+              </div>
+              <span class="ds-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="ds-card" href="#packages">
+              <img src="./assets/austrila.jpg" alt="Australia" loading="lazy" />
+              <div class="ds-top"><span>03</span><span>OCEANIA</span></div>
+              <span class="ds-code" aria-hidden="true">SYD</span>
+              <div class="ds-info">
+                <h3>Australia</h3>
+                <p>Sydney · Melbourne · Gold Coast</p>
+              </div>
+              <span class="ds-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="ds-card" href="#packages">
+              <img
+                src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=800&q=85"
+                alt="India"
+                loading="lazy"
+              />
+              <div class="ds-top"><span>04</span><span>ASIA</span></div>
+              <span class="ds-code" aria-hidden="true">DEL</span>
+              <div class="ds-info">
+                <h3>India</h3>
+                <p>Kerala · Rajasthan · Goa</p>
+              </div>
+              <span class="ds-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="ds-card" href="#packages">
+              <img
+                src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=800&q=85"
+                alt="United States"
+                loading="lazy"
+              />
+              <div class="ds-top"><span>05</span><span>AMERICAS</span></div>
+              <span class="ds-code" aria-hidden="true">JFK</span>
+              <div class="ds-info">
+                <h3>USA</h3>
+                <p>New York · California · Hawaii</p>
+              </div>
+              <span class="ds-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PACKAGES -->
+      <section class="packages" id="packages" hidden>
+        <div class="container">
+          <div class="packages-heading">
+            <div class="heading-content">
+              <span class="section-label">CURATED JOURNEYS</span>
+              <h2>Explore Our <span>Packages</span></h2>
+              <p>
+                From European escapes to tropical adventures, discover journeys
+                designed to create unforgettable memories.
+              </p>
+            </div>
+          </div>
+
+          <div class="country-filters">
+            <button
+              type="button"
+              class="country-filter active"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button type="button" class="country-filter" data-filter="europe">
+              Europe
+            </button>
+            <button type="button" class="country-filter" data-filter="asia">
+              Asia
+            </button>
+            <button
+              type="button"
+              class="country-filter"
+              data-filter="middle-east"
+            >
+              Middle East
+            </button>
+          </div>
+
+          <div class="packages-grid">
+            <article class="package-card" data-region="europe">
+              <div class="package-image">
+                <img
+                  src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=85"
+                  alt="Paris France"
+                />
+                <span class="country-badge">🇫🇷 FRANCE</span>
+              </div>
+              <div class="package-content">
+                <div class="package-meta">
+                  <span>7 DAYS</span><span class="package-rating">★ 4.9</span>
+                </div>
+                <h3>Paris &amp; French Riviera</h3>
+                <p>
+                  Discover romantic Paris, charming streets, beautiful
+                  coastlines and authentic French culture.
+                </p>
+                <button
+                  type="button"
+                  class="package-link"
+                  onclick="openPackage('france')"
+                >
+                  Explore Package <span>→</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="package-card" data-region="europe">
+              <div class="package-image">
+                <img
+                  src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=900&q=85"
+                  alt="Swiss Alps"
+                />
+                <span class="country-badge">🇨🇭 SWITZERLAND</span>
+              </div>
+              <div class="package-content">
+                <div class="package-meta">
+                  <span>7 DAYS</span><span class="package-rating">★ 4.9</span>
+                </div>
+                <h3>Swiss Alps Escape</h3>
+                <p>
+                  Experience breathtaking mountains, scenic trains, peaceful
+                  lakes and charming alpine villages.
+                </p>
+                <button
+                  type="button"
+                  class="package-link"
+                  onclick="openPackage('switzerland')"
+                >
+                  Explore Package <span>→</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="package-card" data-region="europe">
+              <div class="package-image">
+                <img
+                  src="https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=900&q=85"
+                  alt="Italy"
+                />
+                <span class="country-badge">🇮🇹 ITALY</span>
+              </div>
+              <div class="package-content">
+                <div class="package-meta">
+                  <span>8 DAYS</span><span class="package-rating">★ 4.8</span>
+                </div>
+                <h3>Rome &amp; Amalfi Coast</h3>
+                <p>
+                  Walk through ancient Rome, enjoy Italian cuisine and explore
+                  the stunning Amalfi coastline.
+                </p>
+                <button
+                  type="button"
+                  class="package-link"
+                  onclick="openPackage('italy')"
+                >
+                  Explore Package <span>→</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="package-card" data-region="asia">
+              <div class="package-image">
+                <img
+                  src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=85"
+                  alt="Japan Kyoto"
+                />
+                <span class="country-badge">🇯🇵 JAPAN</span>
+              </div>
+              <div class="package-content">
+                <div class="package-meta">
+                  <span>8 DAYS</span><span class="package-rating">★ 4.9</span>
+                </div>
+                <h3>Tokyo &amp; Kyoto</h3>
+                <p>
+                  Experience modern Tokyo, ancient temples, traditional streets
+                  and Japanese culture.
+                </p>
+                <button
+                  type="button"
+                  class="package-link"
+                  onclick="openPackage('japan')"
+                >
+                  Explore Package <span>→</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="package-card" data-region="middle-east">
+              <div class="package-image">
+                <img
+                  src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=85"
+                  alt="Dubai UAE"
+                />
+                <span class="country-badge">🇦🇪 UAE</span>
+              </div>
+              <div class="package-content">
+                <div class="package-meta">
+                  <span>5 DAYS</span><span class="package-rating">★ 4.7</span>
+                </div>
+                <h3>Dubai &amp; Abu Dhabi</h3>
+                <p>
+                  Discover futuristic architecture, desert adventures, luxury
+                  experiences and Arabian culture.
+                </p>
+                <button
+                  type="button"
+                  class="package-link"
+                  onclick="openPackage('uae')"
+                >
+                  Explore Package <span>→</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="package-card" data-region="asia">
+              <div class="package-image">
+                <img
+                  src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=85"
+                  alt="Thailand"
+                />
+                <span class="country-badge">🇹🇭 THAILAND</span>
+              </div>
+              <div class="package-content">
+                <div class="package-meta">
+                  <span>6 DAYS</span><span class="package-rating">★ 4.8</span>
+                </div>
+                <h3>Thailand Island Escape</h3>
+                <p>
+                  Relax on tropical beaches, explore beautiful islands and
+                  experience authentic Thai culture.
+                </p>
+                <button
+                  type="button"
+                  class="package-link"
+                  onclick="openPackage('thailand')"
+                >
+                  Explore Package <span>→</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PACKAGE MODAL -->
+      <div class="package-modal" id="packageModal" aria-hidden="true">
+        <div class="package-modal-overlay" onclick="closePackage()"></div>
+        <div class="package-modal-content" role="dialog" aria-modal="true">
+          <button
+            type="button"
+            class="package-modal-close"
+            onclick="closePackage()"
+            aria-label="Close package"
+          >
+            ×
+          </button>
+          <div class="package-modal-image">
+            <img id="modalImage" src="" alt="" />
+          </div>
+          <div class="package-modal-body">
+            <span class="modal-country" id="modalCountry"></span>
+            <h2 id="modalTitle"></h2>
+            <div class="modal-meta">
+              <span id="modalDays"></span>
+              <span>★ <span id="modalRating"></span></span>
+              <span id="modalLocation"></span>
+            </div>
+            <p id="modalDescription"></p>
+            <div class="modal-places">
+              <h4>Places you'll experience</h4>
+              <div id="modalPlaces"></div>
+            </div>
+            <a href="#contact" class="modal-book-btn" onclick="closePackage()"
+              >Plan This Journey <span>↗</span></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- BOOKING / ENQUIRY -->
+      <section
+        class="booking-section"
+        id="contact"
+        aria-labelledby="bookingTitle"
+      >
+        <div class="container booking-wrapper">
+          <div class="booking-intro">
+            <div class="booking-tag">
+              <span aria-hidden="true"></span>PLAN YOUR JOURNEY
+            </div>
+            <h2 id="bookingTitle" tabindex="-1">
+              Where will your<br /><em>next journey</em> take you?
+            </h2>
+            <p class="booking-description">
+              Tell us a little about your travel plans and our specialists will
+              help you create a journey that fits your interests, schedule and
+              travel style.
+            </p>
+
+            <ul class="booking-highlights">
+              <li class="booking-highlight">
+                <div class="highlight-icon" aria-hidden="true">✦</div>
+                <div>
+                  <strong>Personalised journeys</strong
+                  ><span>Trips designed around you</span>
+                </div>
+              </li>
+              <li class="booking-highlight">
+                <div class="highlight-icon" aria-hidden="true">✓</div>
+                <div>
+                  <strong>Expert travel support</strong
+                  ><span>Guidance from planning to arrival</span>
+                </div>
+              </li>
+              <li class="booking-highlight">
+                <div class="highlight-icon" aria-hidden="true">↗</div>
+                <div>
+                  <strong>Worldwide destinations</strong
+                  ><span>Europe, Asia, Middle East &amp; more</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="booking-contact">
+              <div class="contact-icon" aria-hidden="true">☎</div>
+              <div>
+                <small>Prefer to speak with us?</small>
+                <strong>Talk to a travel specialist</strong>
+                <a href="tel:+41313823030"
+                  ><span class="phone-type">Landline</span> +41 31 382 3030</a
+                >
+                <a href="tel:+41313823033"
+                  ><span class="phone-type">Landline</span> +41 31 382 3033</a
+                >
+                <a href="tel:+41796313030"
+                  ><span class="phone-type">Mobile</span> +41 79 631 3030</a
+                >
+                <a href="tel:+41796343030"
+                  ><span class="phone-type">Mobile</span> +41 79 634 3030</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="booking-card">
+            <div class="booking-card-header">
+              <div>
+                <span class="form-number">01 — TRAVEL ENQUIRY</span>
+                <h3 id="bookingFormTitle">Tell us about your trip</h3>
+              </div>
+              <div class="form-arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <form
+              class="booking-form"
+              id="bookingForm"
+              aria-labelledby="bookingFormTitle"
+            >
+              <!-- Web3Forms Access Key (replace with your real key) -->
+              <input
+                type="hidden"
+                name="access_key"
+                value="YOUR_ACCESS_KEY_HERE"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Travel Enquiry - Skybridge AG Travels"
+              />
+              <input
+                type="hidden"
+                name="from_name"
+                value="Skybridge AG Travels Website"
+              />
+              <input
+                type="checkbox"
+                name="botcheck"
+                style="display: none"
+                tabindex="-1"
+                autocomplete="off"
+                aria-hidden="true"
+              />
+
+              <p class="form-required-note">
+                <span aria-hidden="true">*</span> Required fields
+              </p>
+
+              <fieldset class="form-group">
+                <legend class="form-legend">Your details</legend>
+                <div class="form-row">
+                  <label>
+                    <span
+                      >FULL NAME
+                      <span class="req" aria-hidden="true">*</span></span
+                    >
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Enter your full name"
+                      autocomplete="name"
+                      required
+                    />
+                  </label>
+                  <label>
+                    <span
+                      >PHONE NUMBER
+                      <span class="req" aria-hidden="true">*</span></span
+                    >
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="+00 000 000 000"
+                      autocomplete="tel"
+                      inputmode="tel"
+                      required
+                    />
+                  </label>
+                </div>
+                <label>
+                  <span
+                    >EMAIL ADDRESS
+                    <span class="req" aria-hidden="true">*</span></span
+                  >
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                    inputmode="email"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    required
+                  />
+                </label>
+              </fieldset>
+
+              <fieldset class="form-group">
+                <legend class="form-legend">Your trip</legend>
+                <div class="form-row">
+                  <label>
+                    <span
+                      >DESTINATION
+                      <span class="req" aria-hidden="true">*</span></span
+                    >
+                    <select name="destination" autocomplete="off" required>
+                      <option value="">Choose destination</option>
+                      <option value="France">France</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Japan">Japan</option>
+                      <option value="United Arab Emirates">
+                        United Arab Emirates
+                      </option>
+                      <option value="Thailand">Thailand</option>
+                      <option value="India">India</option>
+                      <option value="Australia">Australia</option>
+                      <option value="United States">United States</option>
+                      <option value="Other">Other destination</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>TRAVEL DATE</span>
+                    <input type="date" name="travel_date" />
+                  </label>
+                </div>
+                <div class="form-row">
+                  <label>
+                    <span>TRAVELLERS</span>
+                    <select name="travellers" autocomplete="off">
+                      <option value="">Number of travellers</option>
+                      <option value="1">1 Traveller</option>
+                      <option value="2">2 Travellers</option>
+                      <option value="3-5">3–5 Travellers</option>
+                      <option value="6-10">6–10 Travellers</option>
+                      <option value="10+">10+ Travellers</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>TRIP STYLE</span>
+                    <select name="trip_type" autocomplete="off">
+                      <option value="">Choose trip style</option>
+                      <option value="Leisure &amp; Relaxation">
+                        Leisure &amp; Relaxation
+                      </option>
+                      <option value="Adventure">Adventure</option>
+                      <option value="Family Holiday">Family Holiday</option>
+                      <option value="Honeymoon">Honeymoon</option>
+                      <option value="Luxury Travel">Luxury Travel</option>
+                      <option value="Business Travel">Business Travel</option>
+                      <option value="Custom Journey">Custom Journey</option>
+                    </select>
+                  </label>
+                </div>
+                <label>
+                  <span>YOUR TRAVEL VISION</span>
+                  <textarea
+                    name="message"
+                    rows="3"
+                    maxlength="1500"
+                    placeholder="Tell us about your interests, places you'd like to visit, activities, or anything else you'd like us to know..."
+                  ></textarea>
+                </label>
+              </fieldset>
+
+              <button class="booking-submit" id="bookingSubmit" type="submit">
+                <span id="submitText">Send travel enquiry</span>
+                <span class="submit-arrow" id="submitArrow" aria-hidden="true"
+                  >↗</span
+                >
+              </button>
+
+              <p
+                class="form-note"
+                id="formMessage"
+                role="status"
+                aria-live="polite"
+                aria-atomic="true"
+              ></p>
+
+              <div class="privacy-note">
+                <span aria-hidden="true">🔒</span>
+                Your information is kept private and used only to plan your
+                journey.
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="modern-process" id="how-it-works">
+        <div class="container">
+          <div class="modern-process-header">
+            <div>
+              <span class="modern-process-label">YOUR JOURNEY STARTS HERE</span>
+              <h2>Travel better.<br /><em>Experience more.</em></h2>
+            </div>
+            <p>
+              From choosing your destination to experiencing it, we make your
+              entire journey simple, personal and memorable.
+            </p>
+          </div>
+
+          <div class="process-showcase">
+            <div class="process-image">
+              <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"
+                alt="Beautiful travel destination"
+              />
+              <div class="process-image-overlay"></div>
+            </div>
+
+            <div class="process-image-content">
+              <span>YOUR NEXT ADVENTURE</span>
+              <h3>The world is<br />waiting for you.</h3>
+              <a href="#destinations"
+                >Explore destinations <strong>↗</strong></a
+              >
+            </div>
+
+            <div class="modern-steps">
+              <div class="modern-step">
+                <div class="modern-step-number">01</div>
+                <div class="modern-step-icon"><span>⌖</span></div>
+                <div class="modern-step-content">
+                  <span>DISCOVER</span>
+                  <h4>Choose your destination</h4>
+                  <p>
+                    Find a place that matches the experience you're looking for.
+                  </p>
+                </div>
+                <a
+                  href="#destinations"
+                  class="modern-step-arrow"
+                  aria-label="Go to destinations"
+                  >→</a
+                >
+              </div>
+
+              <div class="modern-step">
+                <div class="modern-step-number">02</div>
+                <div class="modern-step-icon"><span>$</span></div>
+                <div class="modern-step-content">
+                  <span>PERSONALISE</span>
+                  <h4>Make a Payment</h4>
+                  <p>
+                    We customise your itinerary around your interests and travel
+                    style.
+                  </p>
+                </div>
+                <a
+                  href="#packages"
+                  class="modern-step-arrow"
+                  aria-label="Go to packages"
+                  >→</a
+                >
+              </div>
+
+              <div class="modern-step">
+                <div class="modern-step-number">03</div>
+                <div class="modern-step-icon"><span>✈</span></div>
+                <div class="modern-step-content">
+                  <span>EXPERIENCE</span>
+                  <h4>Enjoy every moment</h4>
+                  <p>Everything is prepared. You simply travel and enjoy.</p>
+                </div>
+                <a
+                  href="#contact"
+                  class="modern-step-arrow"
+                  aria-label="Go to booking"
+                  >→</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="modern-process-bottom">
+            <span>01 — DISCOVER</span>
+            <div></div>
+            <span>02 — PERSONALISE</span>
+            <div></div>
+            <span>03 — EXPERIENCE</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+   <section class="tm-section">
+  <h2 class="tm-title">Traveller <em>stories</em></h2>
+
+  <div class="tm-layout">
+    <button class="tm-arrow" id="tmPrev" type="button" aria-label="Previous">←</button>
+
+    <div class="tm-card" aria-live="polite">
+      <article class="tm-slide active">
+        <p class="tm-quote">“Since 1996 our promise has stayed the same: to make every journey simple, safe and memorable.”</p>
+        <div class="tm-person">
+          <img class="tm-avatar" src="./assets/clients/director.jpg" alt="Mr. Rajah K" onerror="this.style.display='none'">
+          <div><strong>Mr. Rajah K</strong><small>Managing Director · Founder</small></div>
+        </div>
+      </article>
+
+      <article class="tm-slide">
+        <p class="tm-quote">“From planning to the final day, everything felt effortless. The team understood exactly what we wanted.”</p>
+        <div class="tm-person">
+          <img class="tm-avatar" src="./assets/clients/sophia.jpg" alt="Sophia Müller" onerror="this.style.display='none'">
+          <div><strong>Sophia Müller</strong><small>Switzerland · Family Traveller</small></div>
+        </div>
+      </article>
+
+      <article class="tm-slide">
+        <p class="tm-quote">“Beautifully balanced itinerary. We discovered places we would never have found ourselves.”</p>
+        <div class="tm-person">
+          <img class="tm-avatar" src="./assets/clients/james.jpg" alt="James Wilson" onerror="this.style.display='none'">
+          <div><strong>James Wilson</strong><small>United Kingdom · Explorer</small></div>
+        </div>
+      </article>
+
+      <article class="tm-slide">
+        <p class="tm-quote">“Visa, flights and hotels in one place. Clear communication made our trip stress-free.”</p>
+        <div class="tm-person">
+          <img class="tm-avatar" src="./assets/clients/client4.jpg" alt="Traveller" onerror="this.style.display='none'">
+          <div><strong>Happy Traveller</strong><small>Verified Client</small></div>
+        </div>
+      </article>
+    </div>
+
+    <button class="tm-arrow" id="tmNext" type="button" aria-label="Next">→</button>
+  </div>
+
+  <div class="tm-dots">
+    <button class="tm-dot active" type="button" aria-label="Testimonial 1"></button>
+    <button class="tm-dot" type="button" aria-label="Testimonial 2"></button>
+    <button class="tm-dot" type="button" aria-label="Testimonial 3"></button>
+    <button class="tm-dot" type="button" aria-label="Testimonial 4"></button>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer" aria-label="Site footer">
+      <!-- Footer CTA -->
+      <div class="container footer-cta">
+        <div>
+          <p class="footer-cta-tag">READY TO EXPLORE?</p>
+          <h2>Let's plan your next <em>journey.</em></h2>
+        </div>
+        <a class="btn btn-primary" href="#contact">
+          Plan my trip <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <!-- Main Footer -->
+      <div class="container footer-top">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a class="logo light-logo" href="#home" aria-label="Sky Bridge Home">
+            <img
+              class="logo-img footer-logo"
+              src="./assets/skybridge.png"
+              alt="Sky Bridge Travel & Tourism"
+              width="48"
+              height="48"
+            />
+            <span class="logo-text">
+              <strong>Sky Bridge</strong>
+              <small>Travel &amp; Tourism</small>
+            </span>
+          </a>
+
+          <p>
+            A Bern-based multi speciality travel agency since 1996. Thoughtfully
+            planned journeys for curious people.
+          </p>
+
+          <p class="socials-label">Follow us</p>
+
+          <div class="socials">
+            <a
+              href="https://www.instagram.com/skybrigde_multibusiness_ag/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              >IG</a
+            >
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              >FB</a
+            >
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              >in</a
+            >
+          </div>
+        </div>
+
+        <!-- Explore -->
+        <nav class="footer-col" aria-label="Explore">
+          <h4>Explore</h4>
+          <a href="#about">About us</a>
+          <a href="#services">Services</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#packages">Packages</a>
+        </nav>
+
+        <!-- Support -->
+        <nav class="footer-col" aria-label="Support">
+          <h4>Support</h4>
+          <a href="#contact">Book a trip</a>
+          <a href="#contact">Contact us</a>
+          <a href="#privacy">Privacy policy</a>
+          <a href="#terms">Terms &amp; conditions</a>
+        </nav>
+
+        <!-- Contact and Location -->
+        <div class="footer-col contact-col">
+          <h4>Contact &amp; Location</h4>
+
+          <address class="fc-list">
+            <div class="fc-item">
+              <span class="fc-ico" aria-hidden="true">⌖</span>
+              <p>
+                Flugplatzstrasse 48<br />
+                Bern Airport, 3123 Belp<br />
+                Switzerland
+              </p>
+            </div>
+
+            <div class="fc-item">
+              <span class="fc-ico" aria-hidden="true">☎</span>
+              <div class="fc-links">
+                <a href="tel:+41313823030">+41 31 382 3030</a>
+                <a href="tel:+41313823033">+41 31 382 3033</a>
+                <a href="tel:+41796313030">+41 79 631 3030</a>
+                <a href="tel:+41796343030">+41 79 634 3030</a>
+              </div>
+            </div>
+
+            <div class="fc-item">
+              <span class="fc-ico" aria-hidden="true">✉</span>
+              <a href="mailto:info@skybridgeagtravels.com">
+                info@skybridgeagtravels.com
+              </a>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <!-- Compact Map -->
+
+      <!-- Copyright -->
+      <div class="container footer-bottom">
+        <span>© 2026 Sky Bridge Travel &amp; Tourism.</span>
+        <span>Made for memorable journeys.</span>
+       <a class="to-top-fab" href="#home" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <!-- WhatsApp floating button -->
+    <a
+      class="wa-float"
+      href="https://wa.me/41796313030?text=Hello%20Sky%20Bridge%20Travel%2C%20I%20would%20like%20to%20plan%20a%20trip."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with us on WhatsApp (opens in a new tab)"
+    >
+      <svg viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+        <path
+          d="M16.04 3C9.4 3 4.02 8.37 4.02 15c0 2.12.55 4.18 1.6 6L4 28l7.17-1.88A12 12 0 0 0 16.04 27C22.67 27 28.05 21.63 28.05 15S22.67 3 16.04 3zm0 21.9c-1.8 0-3.56-.49-5.1-1.4l-.37-.22-3.8 1 1.02-3.7-.24-.38A9.87 9.87 0 0 1 6.13 15c0-5.46 4.45-9.9 9.91-9.9 5.46 0 9.9 4.44 9.9 9.9s-4.44 9.9-9.9 9.9zm5.43-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"
+        />
+      </svg>
+      <span class="wa-label">Chat on WhatsApp</span>
+    </a>
+
+    <div class="toast" id="toast">Thanks! Your enquiry has been received.</div>
+
+    <script src="script.js"></script>
+
+    <script>
+(function () {
+  var btn = document.querySelector('.to-top-fab');
+  var hero = document.getElementById('home');
+
+  function toggle(show) { btn.classList.toggle('show', show); }
+
+  if (hero && 'IntersectionObserver' in window) {
+    // show the arrow once the landing section is out of view
+    new IntersectionObserver(function (entries) {
+      toggle(!entries[0].isIntersecting);
+    }).observe(hero);
+  } else {
+    window.addEventListener('scroll', function () {
+      toggle(window.scrollY > window.innerHeight * 0.8);
+    }, { passive: true });
+  }
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+  </body>
+</html>
